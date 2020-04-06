@@ -9,10 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [3.0.5]
 
 ### Changed
-* Upgraded to Graphviz 2.42.4, including fixes for:
-  * svg output displays TITLE of %3 if graph had no name https://gitlab.com/graphviz/graphviz/issues/1376
-  * SVG error for "g.transform.scale " in graphviz version 2.43 https://gitlab.com/graphviz/graphviz/issues/1605
-  * XML errors in generated SVG when URL attribute contains ampersand (&) https://gitlab.com/graphviz/graphviz/issues/1687
+* Upgraded [Graphviz](https://gitlab.com/graphviz/graphviz) to version [2.42.4](https://gitlab.com/graphviz/graphviz/-/releases/2.42.4) through [@hpcc-js/wasm](https://github.com/hpcc-systems/hpcc-js-wasm) version [0.3.11](https://github.com/hpcc-systems/hpcc-js-wasm/releases/tag/v0.3.11), including fixes for:
+  * svg output displays TITLE of %3 if graph had no name ([Graphviz issue #1376](https://gitlab.com/graphviz/graphviz/issues/1376))
+  * SVG error for "g.transform.scale " in graphviz version 2.43 ([Graphviz issue #1605](https://gitlab.com/graphviz/graphviz/issues/1605))
+  * XML errors in generated SVG when URL attribute contains ampersand (&) ([Graphviz issue #1687](https://gitlab.com/graphviz/graphviz/issues/1687))
 
 ## [3.0.4]
 
